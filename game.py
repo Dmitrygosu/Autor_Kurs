@@ -1265,7 +1265,7 @@ def click_event(event):
         belie_proverka()
         vozmozhnost_belih_hodit(x, y)
         if white_count == 0:
-            messagebox.showinfo(title='Победа черных', message='Победили черные.', icon='info')
+            messagebox.showinfo(title='Победа белыех', message='Победили белые.', icon='info')
             hod_igroka = None
             Start_new()
         belie_proverka()
@@ -1639,7 +1639,7 @@ def click_event(event):
                 hod_igroka = True
         vozmozhnost_chernih_hodit(x, y)
         if black_count == 0:
-            messagebox.showinfo(title='Победа белых', message='Победили белые.', icon='info')
+            messagebox.showinfo(title='Победа черных', message='Победили черные.', icon='info')
             hod_igroka = None
             Start_new()
         if vozmozhnost_chernih_shodit:
