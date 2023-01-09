@@ -7,7 +7,7 @@ def main():
     global board
     global tk
     tk = Tk()  # Создаём окно
-    tk.title('Турецкие шашки')  # Заголовок окна
+    tk.title('Фризские шашки')  # Заголовок окна
     board = Canvas(tk, width=1400, height=1000, bg='#FFFFFF')
     tk.resizable(width=False, height=False)
     board.pack()
